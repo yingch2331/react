@@ -129,6 +129,11 @@ exports.swiper = (req, res) => {
   	res.send(callback + '(' + json + ')');
 };
 
+exports.home = (req, res) => {
+	
+  	res.render('/index.html');
+};
+
 exports.otherapp = (req, res) => {
 	let reg = /\?callback=(.*)/;
 	let callback = reg.exec(req.url)[1];
