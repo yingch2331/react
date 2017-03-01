@@ -12,7 +12,7 @@
 克隆项目
 
 ```
-> $ git clone https://github.com/CanFoo/react.git
+> $ git clone https://github.com/yingch2331/react.git
 ```
 
 分别进入react目录和server目录下安装依赖包
@@ -33,13 +33,16 @@
 > $ npm run dev
 ```
 
+执行完`npm run dev`命令后，打开浏览器 `http://localhost:8080/`运行项目，后台服务端口为 `3000`
+
+
 发布项目文件命令
 
 ```
 > $ npm run build
 ```
 
-执行完`npm run dev`命令后，打开浏览器 `http://localhost:8080/`运行项目，后台服务端口为 `3000`
+打开浏览器 `http://localhost:3000/`运行项目
 
 ## 后台接口（jsonp请求）
 轮播图模块

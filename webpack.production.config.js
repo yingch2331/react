@@ -5,7 +5,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 //先清空build文件夹下的文件
 var fs = require('fs');
-var	buildPath='./server/webapp';
+var	buildPath='./server/webapp/';
 var folder_exists = fs.existsSync(buildPath);
 if(folder_exists == true)
 {
